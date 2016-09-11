@@ -1,0 +1,189 @@
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+	h1{
+		font-size: 2em !important;
+	}
+	h3{
+		font-size: 1.5em !important;
+	}
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+.col-lg-offsetder-1{
+    margin-right: 8.333333333333332%;
+  }
+
+}
+html {
+  font-size: 14px;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
+.row{
+	margin-right: 0px !important;
+	margin-left:0px;
+}
+
+.navbar{
+	background-color: #394;
+	color:blue;
+	border-radius: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+
+.text-white{
+	color: white;
+}
+.no-pd{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.mb-rowcolor{
+	margin-bottom: 1em;
+}
+.mb-5{
+	margin-bottom: 5%;
+}
+.pt-5{
+	padding-top: 5%;
+}
+
+.fit{
+	width: 100%;
+}
+h1{
+	font-size: 3.5em;
+	font-weight: 400;
+}
+h3{
+	font-size: 2em;
+	font-weight: 400;
+}
+hr{
+	width: 20%;
+	margin-bottom: 5%;
+}
+a{
+	text-decoration: none;
+}
+
+.fondo1{
+	background-image: url(../img/carousel-bg.jpg);
+	background-size: cover;
+	min-height: 35em;
+}
+
+.fondo2{
+	background-color: #334;
+}
+.fondo3{
+	background-color: #394;
+}
+
+
+
+.color-block{
+	height: 9em;	
+	text-align: center;
+}
+.color1{
+	background-color: #69D2E7;
+}
+.color2{
+	background-color: #A7DBDB;
+}
+.color3{
+	background-color: #E0E4CC;
+}
+.color4{
+	background-color: #F38639;
+}
+.color5{
+	background-color: #FA6900;
+}
+.color6{
+	background-color: #E94C6F;
+}
+.color7{
+	background-color: #542733;
+}
+.color8{
+	background-color: #5A6462;
+}
+.color9{
+	background-color: #C6D5CD;
+}
+.color10{
+	background-color: #FDF200;
+}
+.color11{
+	background-color: #69D2E7;
+}
+.color12{
+	background-color: #A7DBDB;
+}
+.color13{
+	background-color: #E0E4CC;
+}
+.color14{
+	background-color: #F38639;
+}
+.color15{
+	background-color: #FA6900;
+}
+.color16{
+	background-color: #E94C6F;
+}
+.color17{
+	background-color: #542733;
+}
+.color18{
+	background-color: #5A6462;
+}
+.color19{
+	background-color: #C6D5CD;
+}
+.color20{
+	background-color: #69D2E7;
+}
+.color21{
+	background-color: #69D2E7;
+}
+.color22{
+	background-color: #A7DBDB;
+}
+.color23{
+	background-color: #E0E4CC;
+}
+.color24{
+	background-color: #F38639;
+}
+.color25{
+	background-color: #FA6900;
+}
