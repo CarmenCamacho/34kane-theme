@@ -16,6 +16,9 @@
 	.rowcolor{
 	margin-bottom: 3em !important;
      }
+    .team{
+    	float: left;
+    }
 }
 
 @media (max-width: 768px) { 
@@ -51,6 +54,7 @@ span.icon-bar{
 .no-pd{
 	padding-left: 0px;
 	padding-right: 0px;
+
 }
 .no-margin{
 	margin-bottom: 0px;
@@ -214,8 +218,8 @@ hr{
 	margin-top: 3%;
 }
 .team{
-	padding-left: 7%;
-	padding-right: 7%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .social-networks{
@@ -233,7 +237,7 @@ li>span{
 }
 .price{
 	font-size: 5em;
-	background-color: #394;
+
 }
 sub{
 	vertical-align: baseline !important;
@@ -242,8 +246,33 @@ sub{
 	font-weight: lighter;
 }
 .pricing{
-	border:1px solid #394;
+	border:2px solid #394;
+	margin-right: 2%;
+	padding-left: 5.5%;
+	padding-right: 5.5%;
+
 }
+.starterbg{
+	background-color: #951;
+}
+.pricingtitle{
+	font-size: 2em;
+	font-weight: 300;
+	height: 100%;
+}
+.whitebg{
+	background-color: white;
+}
+.signup{
+	margin-top: 10%;
+	margin-bottom: 10%;
+	background-color: grey;
+	border-style: none;
+	padding: 2%;
+	color: white;
+
+}
+
 
 
 
