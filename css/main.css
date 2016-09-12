@@ -1,8 +1,4 @@
 
-/* Small devices (tablets, 768px and up) */
-@media (max-width: 768px) { 
-
- }
 
 /* Medium devices (desktops, 992px and up) */
 @media (max-width: 992px) {
@@ -13,17 +9,25 @@
 	h3{
 		font-size: 1.5em !important;
 	}
-
+	
+	.color-block{
+	height: 5em !important;
+	}
+	.rowcolor{
+	margin-bottom: 3em !important;
+     }
 }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (mix-width: 768px) { 
-.col-lg-offsetder-1{
-    margin-right: 8.333333333333332%;
+@media (max-width: 768px) { 
+	.color-block{
+	height: 3em !important;
+	}
+	.rowcolor{
+	margin-bottom: 4em !important;
+     }
   }
 
 }
-
 
 .navbar-toggle{
 	margin-right:0px !important;
@@ -58,6 +62,9 @@ span.icon-bar{
 .mb-5{
 	margin-bottom: 5%;
 }
+.pb-10{
+	padding-bottom: 10%;
+}
 .pb-1{
 	padding-bottom: 1%;
 }
@@ -79,8 +86,6 @@ h3{
 }
 hr{
 	width: 20%;
-	margin-bottom: 5%;
-
 }
 
 
@@ -102,10 +107,14 @@ hr{
 }
 
 .fondoicon{
+	padding: 5%;
+	background-color: #334;	
 	background-image: url(../img/icon-bg.png);
 	background-size: cover;
-	height: 4em;
-	width: 100%;
+	height: 10em;
+	width: 10em;
+	position: relative;
+	margin:auto;
 }
 .rowcolor{
 	margin-bottom: 2em;
@@ -114,7 +123,7 @@ hr{
 	margin:0px;
 }
 .color-block{
-	height: 9em;	
+	height: 9em;
 	text-align: center;
 	width: 20%;
 	float: left;
@@ -153,47 +162,91 @@ hr{
 	background-color: #FDF200;
 }
 .color11{
-	background-color: #69D2E7;
+	background-color: #DB3340;
 }
 .color12{
-	background-color: #A7DBDB;
+	background-color: #E8B71A;
 }
 .color13{
-	background-color: #E0E4CC;
+	background-color: #F7EAC8;
 }
 .color14{
-	background-color: #F38639;
+	background-color: #1FDA9A;
 }
 .color15{
-	background-color: #FA6900;
+	background-color: #28ABE3;
 }
 .color16{
-	background-color: #E94C6F;
+	background-color: #588C73;
 }
 .color17{
-	background-color: #542733;
+	background-color: #F2E394;
 }
 .color18{
-	background-color: #5A6462;
+	background-color: #F2AE72;
 }
 .color19{
-	background-color: #C6D5CD;
+	background-color: #D96459;
 }
 .color20{
-	background-color: #69D2E7;
+	background-color: #8C4646;
 }
 .color21{
-	background-color: #69D2E7;
+	background-color: #D0C91F;
 }
 .color22{
-	background-color: #A7DBDB;
+	background-color: #85C4B9;
 }
 .color23{
-	background-color: #E0E4CC;
+	background-color: #008BBA;
 }
 .color24{
-	background-color: #F38639;
+	background-color: #DF514C;
 }
 .color25{
-	background-color: #FA6900;
+	background-color: #DC403B;
 }
+.hirebutton{
+	background-color: #222;
+	border-style: none;
+	padding: 1%;
+	color: white;
+	margin-top: 3%;
+}
+.team{
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+.social-networks{
+	text-align: center;
+	color: lightgrey;
+	padding-left: 0px;
+	padding-bottom: 10%;
+}
+.social-networks>li{
+	display: inline-block;
+	padding-left: 5%;
+}
+li>span{
+	font-size: 1.5em;
+}
+.price{
+	font-size: 5em;
+	background-color: #394;
+}
+sub{
+	vertical-align: baseline !important;
+	bottom: 0 !important;
+	font-size: 40%;
+	font-weight: lighter;
+}
+.pricing{
+	border:1px solid #394;
+}
+
+
+
+
+
+
